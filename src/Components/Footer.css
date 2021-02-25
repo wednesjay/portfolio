@@ -1,0 +1,17 @@
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 10px solid purple;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 12px;
+}
+
+.footer-link:hover {
+    color: purple;
+}

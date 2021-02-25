@@ -1,0 +1,40 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 28px;
+    height: 20vh
+}
+
+.socials {
+    list-style-type: none;
+}
+
+.socials > * {
+    text-decoration: none;
+    margin: 18px 0;
+}
+
+.link-animation {
+    font-size: 22px;
+    color: purple;
+    text-decoration: none;
+    border: none;
+    transition: 300ms;
+}
+
+.link-animation::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: purple;
+    transition: width .3s;
+}
+
+.link-animation:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
