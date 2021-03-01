@@ -1,6 +1,32 @@
 #about {
     margin-top: 200px;
     height: 50vh;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: rgba(255, 255, 255, 0); */
+}
+
+ #about::before {
+    background-image: linear-gradient(rgba(255, 255, 255, 0) 65%, rgb(255, 255, 255));
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.40;
+}
+
+#about::after {
+    content: "";
+    background-image: url("JayShot.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.40;
+    z-index: -1;
 }
 
 .about-section {
@@ -8,11 +34,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
-    margin-left: auto;
+    width: 55%;
+    margin-left: 22px;
     margin-right: auto;
     padding: 20px;
-    border-bottom: 2px solid black;
 }
 
 .about-section > * {
@@ -31,4 +56,17 @@
     margin-top: 24px;
     padding: 12px;
     color: white;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+}
+
+.resume-button:hover {
+    transition: 200ms ease-in-out;
+    background: white;
+    color: black;
+}
+
+.job-link {
+    text-decoration: underline;
+    font-size: 22px;
 }

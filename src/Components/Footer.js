@@ -1,6 +1,4 @@
 import React from 'react';
-import { fagithub } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 import './Footer.css'

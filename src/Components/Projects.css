@@ -25,6 +25,7 @@
     align-items: center;
     justify-content: space-evenly;
     border-bottom: 2px solid black;
+    padding: 8px;
 }
 
 .project > * {
@@ -34,4 +35,10 @@
 .project > h4 {
     font-size: 24px;
     text-decoration: underline;
+}
+
+.project:hover {
+    transition: 300ms ease-in-out;
+    border: 3px solid purple;
+    border-radius: 8px;
 }
