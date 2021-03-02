@@ -8,7 +8,13 @@
 #projects > h1 {
     font-size: 40px;
     color: purple;
-    margin: 92px 0;
+    margin: 92px 0 24px 0;
+}
+
+.subhead {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 92px;
 }
 
 .projects {
@@ -38,7 +44,23 @@
 }
 
 .project:hover {
-    transition: 300ms ease-in-out;
+    transition: 150ms ease-in-out;
     border: 3px solid purple;
     border-radius: 8px;
+}
+
+.live-link {
+    text-decoration: none;
+    color: white;
+    background-color: purple;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 200ms ease-in-out;
+}
+
+.live-link:hover {
+    transition: 200ms ease-in-out;
+    color: black;
+    border: 1px solid black;
+    background-color: rgba(128, 0, 128, 0.521);
 }

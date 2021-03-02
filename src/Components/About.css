@@ -18,7 +18,7 @@
 
 #about::after {
     content: "";
-    background-image: url("JayShot.png");
+    background-image: url("./images/JayShot.png");
     background-size: cover;
     position: absolute;
     top: 0px;
